@@ -1,0 +1,256 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+
+/*****
+****Commentaire****/
+
+html {
+  background-color :rgba(255,192,203,0.4);
+  overflow:scroll;
+  font-size:30px;
+}
+
+header {
+  height:100vh;
+  width:100%;
+  background-color:hsla(27,15%,65%,0.7);
+}
+
+.mon-titre {
+  position:relative;
+  max-width:90%;
+  max-height: 45%;
+  top:45vh;
+  font-size:35px;
+  margin:auto;
+  color: white;
+  background-color:rgba(0,0,0,0.7);
+  text-align:center;
+  background-image:url(image/soie_perlemax.jpg);
+}
+.citation-proverbe {
+  text-align:center;
+  color:purple;
+}
+
+header h1 h2 {
+  color:white;
+  padding:30px;
+}
+
+/*******
+*****Menu************
+*****/
+ table {
+  position : fixed;
+  border-collapse:collapse;
+  letter-spacing:1px;
+  text-align:left;
+  top:0;
+  padding: 20px auto;
+  margin:auto;
+  width:100%;
+}
+
+td {
+  background-color:hsla(47,26%,72%,1);
+  font-size:30px;
+}
+nav  {
+  list-style:none;
+  float:right;
+}
+
+nav {
+  position:fixed;
+  top:0;
+  width:100%;
+  height:70px;
+  background-color:hsla(47,26%,72%,1);
+  z-index:99;
+  padding-bottom:30px;
+  margin-bottom:50px;
+  }
+
+ #logo img {
+  height:100px;
+  width:100px;
+}
+
+
+  #logo {
+    height:50px;
+    position:relative;
+    padding:25px;
+    top:10px;
+  }
+
+/********Body******/
+
+
+  section {
+    min-height:100vh;
+  }
+
+  h2 {
+    text-align:center;
+    padding-top:50px;
+  }
+
+  #section1 {
+    text-align:center;
+    letter-spacing:1px;
+    background-color:#FFB6C1;
+    width:100%;
+    padding-top:250px;
+    padding-bottom:50px;
+  }
+.marco_polo {
+  text-align:justify;
+  margin:auto;
+  width:80%;
+}
+img.bouquet {
+  width:50%;
+  height:50%;
+}
+
+.présentation {
+  background-color: #DB7093;
+  width:100%;
+}
+
+.espace_beaute {
+  padding:50px auto;
+  margin:50px auto;
+  background-color:rgba(218,112,214,0.2);
+  height:160px;
+}
+
+  #section2 {
+    background-color: #DDA0DD;
+    text-align:center;
+    letter-spacing:1px;
+    width:100%;
+    padding-top:250px;
+    padding-bottom:100px;
+  }
+
+.saint-laurent {
+  text-align:justify;
+  margin:auto;
+  width:80%;
+}
+.bougie_parfum {
+  background-color:rgba(176,196,222,0.4);
+  height:195px;
+}
+
+  .costume {
+    width:50%;
+    height:50%;
+    margin-top:150px;
+    padding-top:50px;
+  }
+
+.resume,.evasion p,.citation p {
+  text-align:justify;
+  letter-spacing:1px;
+  width:80%;
+  margin:auto;
+  padding-bottom:30px;
+}
+
+.text p {
+  text-align:justify;
+  width:80%;
+  margin:auto;
+}
+.adresse a {
+  text-align:center;
+}
+
+.flacon_slaurent {
+  margin-top:100px;
+}
+
+#section3 {
+  text-align:justify;
+  letter-spacing:1px;
+  background-color: orange;
+  width:100%;
+  padding-top:250px;
+  padding-bottom:50px;
+}
+
+
+.tachkent {
+  width:100%;
+  height:100%;
+  text-align:center;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.video {
+  background-color:rgba(255,127,80,0.5);
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  margin:auto;
+}
+
+.video-wrapper {
+  width: 600px;
+  max-width: 100%;
+}
+
+.carte img {
+  width:100%;
+  margin:auto;
+}
+
+
+
+
+/******
+******footer********/
+
+  footer {
+    position:absolute;
+    margin-bottom:0;
+    width:100%;
+    min-height:100px;
+    background-image: url(image/banner_soie.jpg);
+  }
+
+  #reseaux-sociaux {
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+
+  .facebook img {
+    margin-bottom: 30px;
+  }
+
+@ media all and (max-width : 600px) {
+}
